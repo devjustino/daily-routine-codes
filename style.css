@@ -1,0 +1,129 @@
+* {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header .top-page {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 15rem;
+}
+
+header .top-page h1 {
+    font-family: monospace;
+    color: #A6D0DD;
+    font-size: 2rem;
+}
+
+header .top-page span {
+    font-family: monospace;
+    color: #ee4949;
+}
+
+body {
+    background-color: #181818;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body .content {
+    display: flex;
+    flex-direction: column;
+}
+
+body .content h1 {
+    font-family: monospace;
+    color: #909090;
+}
+
+body .content .add-task {
+    display: inline-flex;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.content .add-task #button-add {
+    max-height: 100px;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color:#bdbdbd;
+    cursor: pointer;
+}
+
+.content #button-add:hover {
+    background-color: #919191;
+    transition: .5s;
+}
+
+.content #input-new-task, #button-add {
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+.content .content-task #task-list {
+    display: flex;
+    color: #909090;
+    margin-top: 50px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-task li {
+    text-transform: capitalize; 
+    font-size: 1.5rem;
+    max-width: 50rem;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.content #input-new-task {
+    border-radius: 2rem;
+    background-color: #bdbdbd;
+}
+
+.content-task #task-list li:hover {
+    background-color: #302f2f;
+    transition: .4s;
+    border-radius: 1rem;
+    padding-top: 1rem;
+}
+
+.content #task-list button {
+    max-width: 3rem;
+    max-height: 3rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    margin-left: 10px;
+}
+
+#btn-ok{
+    border: none;
+    background-color:#86cca3;
+    color: var(--color-white);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#btn-ok:hover {
+    background-color: #48a56f;
+}
+
+
+
